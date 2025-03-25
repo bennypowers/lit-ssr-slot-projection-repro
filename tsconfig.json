@@ -1,0 +1,14 @@
+{
+  "exclude": [
+    "ssr.ts"
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "target": "es2022",
+    "useDefineForClassFields": false
+  }
+}

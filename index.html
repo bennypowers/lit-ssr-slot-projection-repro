@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>lit ssr context slot projection repro</title>
+    <script type="module">
+      import './slot-host.ts';
+      import './prov-ider.ts';
+      import './cons-umer.ts';
+    </script>
+  </head>
+  <body>
+    <slot-host>
+      <cons-umer></cons-umer>
+    </slot-host>
+  </body>
+</html>

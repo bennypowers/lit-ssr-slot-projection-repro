@@ -1,0 +1,27 @@
+<!--lit-part BRUAAAUVAAA=--><!--lit-part UQtRYB3NpfU=--><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>lit ssr context slot projection repro</title>
+    <script type="module">
+      import './slot-host.ts';
+      import './prov-ider.ts';
+      import './cons-umer.ts';
+    </script>
+  </head>
+  <body>
+    <slot-host><template shadowroot="open" shadowrootmode="open"><!--lit-part JzzX1kfG0gw=-->
+      <!--lit-node 0--><prov-ider defer-hydration><template shadowroot="open" shadowrootmode="open"><!--lit-part kHJJur9OVoU=-->
+      <slot></slot>
+    <!--/lit-part--></template>
+        <slot></slot>
+      </prov-ider>
+    <!--/lit-part--></template>
+      <cons-umer><template shadowroot="open" shadowrootmode="open"><!--lit-part 2SA3wfbsOkk=-->
+      <div><!--lit-part-->CONSUMER<!--/lit-part--></div>
+    <!--/lit-part--></template></cons-umer>
+    </slot-host>
+  </body>
+</html>
+<!--/lit-part--><?><!--/lit-part-->
