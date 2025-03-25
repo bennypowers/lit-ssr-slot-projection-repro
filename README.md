@@ -1,3 +1,6 @@
+> [!TIP]
+> My bad, you need to opt in with the global switch
+
 # Lit SSR + Context slot projection reproduction
 
 ```html
@@ -22,3 +25,4 @@ In this demo, we project a consuming element into a providing element via a slot
 in a grand-parent provider. The consumer renders it's context value. Run the dev
 server with `npm start`, and observe the **expected result**: `PROVIDER`.
 Run the test with `npm test` and observe the **actual result**: `CONSUMER`.
+
